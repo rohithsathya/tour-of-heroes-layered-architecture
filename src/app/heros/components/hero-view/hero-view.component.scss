@@ -1,0 +1,47 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 8px;
+    width: 300px;
+}
+
+.table {
+    font-size: 12px;
+}
+
+.title {
+    margin: 2px 0px 5px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.label {
+    width: 80px;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 12px;
+    cursor: pointer;
+}
+
+.btn.edit {
+    background-color: #008CBA;
+}
+
+.btn.delete {
+    background-color: #f44336;
+}

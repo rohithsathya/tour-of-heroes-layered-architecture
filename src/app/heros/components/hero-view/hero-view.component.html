@@ -1,0 +1,13 @@
+<div class="card">
+    <h2 class="title">{{hero.name}}</h2>
+    <table class="table">
+        <tr>
+            <td class="label">Debut Year</td>
+            <td class="value">{{hero.yearCreated}}</td>
+        </tr>
+    </table>
+    <div style="text-align: right;">
+        <button class="btn edit" (click)="onEditEvent()">Edit</button>
+        <button class="btn delete" (click)="onDeleteEvent()">Delete</button>
+    </div>
+</div>

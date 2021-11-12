@@ -1,0 +1,14 @@
+<h1>
+    Tour of Heroes
+    <button class="btn create" (click)="onAddEvent()">Add New</button>
+</h1>
+
+<!-- provide data and handle events from dumb component -->
+<app-hero-view *ngFor="let hero of heros" [hero]="hero" (onEdit)="onEditEvent(hero)" (onDelete)="onDeleteEvent(hero)">
+
+</app-hero-view>
+
+<!--app loading spinner-->
+<div class="app-busy-loader-container" *ngIf="isUpdating">
+    <div class="app-busy-loader"></div>
+</div>

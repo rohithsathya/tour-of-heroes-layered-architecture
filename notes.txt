@@ -1,0 +1,2 @@
+prod build to deploy
+ng build --prod --base-href https://rohithsathya.github.io/tour-of-heroes-layered-architecture/
